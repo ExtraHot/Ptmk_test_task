@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Ptmk_test_task.Models;
 using Ptmk_test_task.Services;
+using Ptmk_test_task.Utilities;
 
 namespace Ptmk_test_task;
 
@@ -48,14 +49,14 @@ static class Program
                 var employeesBatch = new List<Employee>();
                 for (int i = 0; i < 1000000; i++)
                 {
-                    var fullName = GenerateRandomName(random);
-                    var dateOfBirth = GenerateRandomDate(random);
+                    var fullName = RandomDataGenerator.GenerateRandomName(random);
+                    var dateOfBirth = RandomDataGenerator.GenerateRandomDate(random);
                     var gender = random.Next(2) == 0 ? "Male" : "Female";
                     employeesBatch.Add(new Employee(fullName, dateOfBirth, gender));
                 }
                 for (int i = 0; i < 100; i++)
                 {
-                    employeesBatch.Add(new Employee("F" + GenerateRandomName(random), GenerateRandomDate(random), "Male"));
+                    employeesBatch.Add(new Employee("F" + RandomDataGenerator.GenerateRandomName(random), RandomDataGenerator.GenerateRandomDate(random), "Male"));
                 }
                 dbService.InsertEmployeesBatch(employeesBatch);
                 Console.WriteLine("Employees added.");
@@ -77,18 +78,5 @@ static class Program
                 break;
         }
     }
-
-    static string GenerateRandomName(Random random)
-    {
-        var firstNames = new[] { "John", "Jane", "Michael", "Emily", "David", "Sarah" };
-        var lastNames = new[] { "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia" };
-        return $"{lastNames[random.Next(lastNames.Length)]} {firstNames[random.Next(firstNames.Length)]}";
-    }
-
-    static DateTime GenerateRandomDate(Random random)
-    {
-        var start = new DateTime(1950, 1, 1);
-        var range = (DateTime.Today - start).Days;
-        return start.AddDays(random.Next(range));
-    }
+    
 }
