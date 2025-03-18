@@ -7,7 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3bb0c8-cf5f-4315-9f66-264f43f6eebb" name="Changes" comment="Create task" />
+    <list default="true" id="ee3bb0c8-cf5f-4315-9f66-264f43f6eebb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ptmk_test_task/.idea/dataSources/6de625d7-a5ee-4b0b-a5b1-fef4471ada6a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ptmk_test_task/.idea/dataSources/6de625d7-a5ee-4b0b-a5b1-fef4471ada6a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ptmk_test_task/.idea/dataSources/6de625d7-a5ee-4b0b-a5b1-fef4471ada6a/storage_v2/_src_/database/employeesdb.wy58Ng/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ptmk_test_task/.idea/dataSources/6de625d7-a5ee-4b0b-a5b1-fef4471ada6a/storage_v2/_src_/database/employeesdb.wy58Ng/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ptmk_test_task/.idea/dataSources/6de625d7-a5ee-4b0b-a5b1-fef4471ada6a/storage_v2/_src_/database/employeesdb.wy58Ng/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ptmk_test_task/.idea/dataSources/6de625d7-a5ee-4b0b-a5b1-fef4471ada6a/storage_v2/_src_/database/employeesdb.wy58Ng/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ptmk_test_task/.idea/dataSources/6de625d7-a5ee-4b0b-a5b1-fef4471ada6a/storage_v2/_src_/database/employeesdb.wy58Ng/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ptmk_test_task/.idea/dataSources/6de625d7-a5ee-4b0b-a5b1-fef4471ada6a/storage_v2/_src_/database/employeesdb.wy58Ng/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ptmk_test_task/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ptmk_test_task/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/RandomDataGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/RandomDataGenerator.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,47 +27,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ExtraHot"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ExtraHot&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ExtraHot/Ptmk_test_task.git",
-    "accountId": "793ba75e-1128-44e4-b910-2fa7e8fc66ae"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ExtraHot/Ptmk_test_task.git&quot;,
+    &quot;accountId&quot;: &quot;793ba75e-1128-44e4-b910-2fa7e8fc66ae&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/karty/RiderProjects/Ptmk_test_task/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2uS6hFEXK6M1WQRTaZgJ9FHPomw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Ptmk_test_task.executor": "Run",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Ptmk_test_task.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Ptmk_test_task" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -88,7 +99,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742229746409</updated>
-      <workItem from="1742229747734" duration="6166000" />
+      <workItem from="1742229747734" duration="8419000" />
+      <workItem from="1742323228868" duration="1592000" />
     </task>
     <task id="LOCAL-00001" summary="Create task">
       <option name="closed" value="true" />
@@ -98,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742233644695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create new Class RandomDataGenerator">
+      <option name="closed" value="true" />
+      <created>1742236259307</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742236259307</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Create task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create task" />
+    <MESSAGE value="Create new Class RandomDataGenerator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new Class RandomDataGenerator" />
   </component>
 </project>

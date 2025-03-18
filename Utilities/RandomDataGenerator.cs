@@ -5,7 +5,7 @@ public static class RandomDataGenerator
     public static string GenerateRandomName(Random random)
     {
         var firstNames = new[] { "John", "Jane", "Michael", "Emily", "David", "Sarah" };
-        var lastNames = new[] { "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia" };
+        var lastNames = new[] { "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Frown" };
         return $"{lastNames[random.Next(lastNames.Length)]} {firstNames[random.Next(firstNames.Length)]}";
     }
 
