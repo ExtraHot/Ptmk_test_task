@@ -66,11 +66,13 @@ static class Program
                 var stopwatch = Stopwatch.StartNew();
                 var maleEmployees = dbService.GetMaleEmployeesWithFLastName();
                 stopwatch.Stop();
+                Console.WriteLine($"Query executed in {stopwatch.ElapsedMilliseconds} ms");
                 foreach (var emp in maleEmployees)
                 {
-                    Console.WriteLine($"{emp.FullName}, {emp.DateOfBirth.ToShortDateString()}, {emp.Gender}, {emp.CalculateAge()} years old");
+                    Console.WriteLine(
+                        $"{emp.FullName}, {emp.DateOfBirth.ToShortDateString()}, {emp.Gender}, {emp.CalculateAge()} years old");
                 }
-                Console.WriteLine($"Query executed in {stopwatch.ElapsedMilliseconds} ms");
+
                 break;
 
             default:
